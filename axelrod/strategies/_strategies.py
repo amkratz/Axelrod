@@ -61,7 +61,7 @@ from .sequence_player import SequencePlayer, ThueMorse, ThueMorseInverse
 from .titfortat import (
     TitForTat, TitFor2Tats, TwoTitsForTat, Bully, SneakyTitForTat,
     SuspiciousTitForTat, AntiTitForTat, HardTitForTat, HardTitFor2Tats,
-    OmegaTFT, Gradual, ContriteTitForTat, SlowTitForTwoTats, AdaptiveTitForTat)
+    OmegaTFT, Gradual, ContriteTitForTat, SlowTitForTwoTats, AdaptiveTitForTat,SpitefulTitForTat)
 from .worse_and_worse import (WorseAndWorse, KnowledgeableWorseAndWorse)
 
 # Note: Meta* strategies are handled in .__init__.py
@@ -158,7 +158,7 @@ all_strategies = [
     MindReader,
     MindWarper,
     MirrorMindReader,
-	Negation,
+    Negation,
     NiceAverageCopier,
     Nydegger,
     OmegaTFT,
@@ -188,6 +188,8 @@ all_strategies = [
     SoftJoss,
     SolutionB1,
     SolutionB5,
+    SpitefulTitForTat,
+    StochasticCooperator,
     StochasticWSLS,
     SuspiciousTitForTat,
     Tester,
